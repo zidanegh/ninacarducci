@@ -45,6 +45,7 @@ main {
 
 .social-link img {
   width: 20px;
+  height: auto;
 }
 
 #about {
@@ -75,6 +76,7 @@ main {
 
 .picture img {
   width: 100%;
+  height: auto;
 }
 #about-me {
   flex: 2;
