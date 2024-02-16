@@ -1,7 +1,7 @@
 body {
   max-width: 1920px;
   margin: auto;
-  max-height: fit-content;
+  min-height: fit-content;
 }
 * {
   font-family: "Inter";
