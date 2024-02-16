@@ -650,7 +650,8 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 15%;
+  width: fit-content;
+  height: fit-content;
   padding: 0;
   color: #fff;
   text-align: center;

@@ -1,11 +1,15 @@
 body {
   max-width: 1920px;
   margin: auto;
-  min-height: fit-content;
+  min-height: max-content;
+  max-height: 100%;
 }
 * {
   font-family: "Inter";
   font-style: normal;
+}
+main {
+  height: auto;
 }
 .top-header {
   background-color: white;
@@ -46,6 +50,7 @@ body {
 #about {
   display: flex;
   background-color: #f6d2b8;
+  height: auto;
   padding-inline: 100px;
   padding-block: 100px;
   position: relative;
