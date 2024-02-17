@@ -348,6 +348,10 @@ input[type="submit"] {
   #services .container {
     align-items: center;
   }
+  .gallery-item {
+    height: 180px;
+    width: 180px;
+  }
   .service {
     max-width: 90%;
   }
