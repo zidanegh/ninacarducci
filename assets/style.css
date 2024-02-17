@@ -1,7 +1,7 @@
 body {
   max-width: 1920px;
   margin: auto;
-  min-height: fit-content;
+  min-height: 100vh;
   max-height: 100%;
 }
 * {
@@ -352,6 +352,9 @@ input[type="submit"] {
   #contact {
     padding-inline: 2em;
     padding-block: 2em;
+  }
+  #about {
+    min-height: 820px;
   }
   form {
     width: 100%;
