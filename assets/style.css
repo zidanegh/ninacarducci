@@ -1,7 +1,7 @@
 body {
   max-width: 1920px;
   margin: auto;
-  min-height: max-content;
+  min-height: fit-content;
   max-height: 100%;
 }
 * {
