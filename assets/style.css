@@ -1,7 +1,7 @@
 body {
   max-width: 1920px;
   margin: auto;
-  min-height: 100vh;
+  min-height: fit-content;
   max-height: 100%;
 }
 * {
@@ -366,5 +366,17 @@ input[type="submit"] {
   }
   .picture {
     width: 80%;
+  }
+  header {
+    min-height: 150px;
+  }
+  #header {
+    min-height: 275px;
+  }
+  main {
+    min-height: 3943px;
+  }
+  #contact {
+    min-height: 951px;
   }
 }
