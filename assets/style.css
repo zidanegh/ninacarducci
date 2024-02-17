@@ -355,6 +355,11 @@ input[type="submit"] {
   }
   #about {
     min-height: 820px;
+    width: 100%;
+  }
+  #about-me {
+    min-height: 346px;
+    width: 100%;
   }
   form {
     width: 100%;
