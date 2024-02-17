@@ -53,7 +53,6 @@ body {
   display: flex;
   background-color: #f6d2b8;
   min-height: 500px;
-  max-height: 820px;
   width: 100%;
   padding-inline: 100px;
   padding-block: 100px;
@@ -324,6 +323,10 @@ input[type="submit"] {
 }
 
 @media all and (max-width: 650px) {
+  .top-header .nav a {
+    min-height: 21px;
+    width: fit-content;
+  }
   .top-header {
     flex-direction: column;
     padding-inline: 0;
