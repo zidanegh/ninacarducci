@@ -361,7 +361,6 @@ input[type="submit"] {
     padding-block: 2em;
   }
   #about {
-    height: 820px;
     min-height: 820px;
     width: 100%;
   }
@@ -379,8 +378,6 @@ input[type="submit"] {
     min-height: 150px;
   }
   #header {
-    min-width: 519px;
-    height: 275px;
     min-height: 275px;
   }
   main {
