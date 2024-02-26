@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <title>Nina CARDUCCI photographe</title>
+    <title>Nina CARDUCCI photographe sur bordeaux</title>
     <meta
       name="description"
-      content="photographe Nina Carducci, je fais des photos pour tout types d'évenement"
+      content="photographe Nina Carducci portraits & événementiel sur bordeaux"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta name="language" content="fr-FR" />
     <link rel="stylesheet" href="assets/style.css" />
     <link
       rel="preload"
@@ -24,8 +26,6 @@
     <noscript
       ><link rel="stylesheet" href="assets/bootstrap/bootstrap.css"
     /></noscript>
-
-    <meta charset="UTF-8" />
   </head>
   <body>
     <header class="top-header">
@@ -81,22 +81,6 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <source
-              media="(max-width: 650px)"
-              srcset="
-                ./assets/images/slider/mobile/ryoji-iwata-wUZjnOv7t0g-unsplash.webp
-              "
-              width="591"
-              height="273"
-            />
-            <source
-              media="(min-width: 651px)"
-              srcset="
-                ./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp
-              "
-              width="1520"
-              height="702"
-            />
             <img
               fetchpriority="high"
               src="./assets/images/slider/mobile/ryoji-iwata-wUZjnOv7t0g-unsplash.webp"
@@ -104,6 +88,7 @@
                 ./assets/images/slider/mobile/ryoji-iwata-wUZjnOv7t0g-unsplash.webp  591w,
                 ./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp        1520w
               "
+              sizes=" (max-width:650px) 200px"
               width="591"
               height="273"
               alt="photo de ryoji iwata sur un trotoir"
@@ -127,6 +112,7 @@
               height="702"
             />
             <img
+              loading="lazy"
               fetchpriority="low"
               width="1520"
               height="702"
@@ -151,6 +137,7 @@
                 width="1520"
                 height="702" />
               <img
+                loading="lazy"
                 fetchpriority="low"
                 width="1520"
                 height="702"
@@ -368,6 +355,7 @@
         </div>
         <div class="picture right">
           <img
+            loading="lazy"
             width="500px"
             height="500px"
             src="./assets/images/camera.webp"
@@ -377,12 +365,11 @@
       </div>
     </footer>
   </body>
-  <script src="./assets/bootstrap/bootstrap.bundle2.js" defer></script>
+  <script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
   <script
     src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
     crossorigin="anonymous"
-    defer
   ></script>
   <script src="./assets/maugallery.js" defer></script>
   <script src="./assets/scripts.js" defer></script>
