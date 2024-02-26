@@ -97,6 +97,7 @@ body {
   font-weight: 800;
   font-style: italic;
   width: 60%;
+  font-size: 1rem;
 }
 #about-me p {
   width: 80%;
@@ -110,6 +111,7 @@ body {
   min-height: 146px;
   text-align: center;
   padding-block: 2em;
+  font-size: calc(1.3rem + 0.6vw);
 }
 .gallery .nav {
   justify-content: center;
@@ -152,6 +154,7 @@ body {
   font-family: "Spectral";
   font-style: italic;
   font-weight: 300;
+  font-size: calc(1.375rem + 1.5vw);
 }
 .quote__author {
   font-family: "Spectral";
@@ -258,7 +261,7 @@ input[type="submit"] {
     margin-top: 0;
     margin-bottom: 1em;
   }
-  #about-me h6,
+  #about-me h3,
   #about-me p {
     width: 100%;
   }

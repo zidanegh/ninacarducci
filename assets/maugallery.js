@@ -108,6 +108,7 @@
       }
     },
     openLightBox(element, lightboxId) {
+      $(`#${lightboxId}`).modal();
       $(`#${lightboxId}`)
         .find(".lightboxImage")
         .attr("src", element.attr("src"));
