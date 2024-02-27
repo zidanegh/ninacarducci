@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "minify": "terser assets/bootstrap/bootstrap.bundle1.js  -c -m --output assets/bootstrap/bootstrap.bundle2.js"
+    "minify": "terser assets/style.css  -c -m --output assets/style.css"
   },
   "keywords": [],
   "author": "",
