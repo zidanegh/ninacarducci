@@ -10,13 +10,7 @@
     <meta charset="UTF-8" />
     <meta name="language" content="fr-FR" />
     <link rel="stylesheet" href="assets/style.css" />
-    <link
-      rel="preload"
-      href="assets/deferstyle.css"
-      as="style"
-      onload="this.onload=null;this.rel='stylesheet'"
-    />
-    <noscript><link rel="stylesheet" href="assets/deferstyle.css" /></noscript>
+ 
     <link
       rel="preload"
       href="assets/bootstrap/bootstrap.css"
@@ -28,6 +22,101 @@
     /></noscript>
   </head>
   <body>
+    <style>/* latin-ext */
+      @font-face {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 100 900;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa25L7SUc.woff2)
+          format("woff2");
+        unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF,
+          U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+      /* latin */
+      @font-face {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 100 900;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/inter/v13/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2)
+          format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+          U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+          U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+      
+      /* latin-ext */
+      @font-face {
+        font-family: "Spectral";
+        font-style: italic;
+        font-weight: 300;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/spectral/v13/rnCu-xNNww_2s0amA9M8qtHEWfqFXUIJ.woff2)
+          format("woff2");
+        unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF,
+          U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+      /* latin */
+      @font-face {
+        font-family: "Spectral";
+        font-style: italic;
+        font-weight: 300;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/spectral/v13/rnCu-xNNww_2s0amA9M8qtHEWfSFXQ.woff2)
+          format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+          U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+          U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+      
+      /* latin-ext */
+      @font-face {
+        font-family: "Spectral";
+        font-style: italic;
+        font-weight: 800;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/spectral/v13/rnCu-xNNww_2s0amA9M8qt3AWfqFXUIJ.woff2)
+          format("woff2");
+        unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF,
+          U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+      /* latin */
+      @font-face {
+        font-family: "Spectral";
+        font-style: italic;
+        font-weight: 800;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/spectral/v13/rnCu-xNNww_2s0amA9M8qt3AWfSFXQ.woff2)
+          format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+          U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+          U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+      
+      /* latin-ext */
+      @font-face {
+        font-family: "Spectral";
+        font-style: normal;
+        font-weight: 800;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/spectral/v13/rnCs-xNNww_2s0amA9uetG3PafadWQ.woff2)
+          format("woff2");
+        unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF,
+          U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+      /* latin */
+      @font-face {
+        font-family: "Spectral";
+        font-style: normal;
+        font-weight: 800;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/spectral/v13/rnCs-xNNww_2s0amA9uetG3BafY.woff2)
+          format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+          U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+          U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }</style>
     <header class="top-header">
       <h1 class="name">Nina Carducci</h1>
       <div class="nav">
@@ -88,61 +177,38 @@
                 ./assets/images/slider/mobile/ryoji-iwata-wUZjnOv7t0g-unsplash.webp  591w,
                 ./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp        1520w
               "
-              sizes=" (max-width:650px) 200px"
+              sizes=" (max-width:850px) 400px"
               width="591"
               height="273"
               alt="photo de ryoji iwata sur un trotoir"
             />
           </div>
           <div class="carousel-item">
-
-            <source
-              media="(max-width: 650px)"
-              srcset="
-                ./assets/images/slider/mobile/nicholas-green-nPz8akkUmDI-unsplash.webp
-              "
-              width="591"
-              height="273"
-            />
-            <source
-              media="(min-width: 651px)"
-              srcset="
-                ./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp
-              "
-              width="1520"
-              height="702"
-            />
             <img
               loading="lazy"
               fetchpriority="low"
-              width="1520"
-              height="702"
-              src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp"
+              width="591"
+              height="273"
+              srcset="
+                ./assets/images/slider/mobile/nicholas-green-nPz8akkUmDI-unsplash.webp  591w,
+                ./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp        1520w
+              "
+              sizes=" (max-width:850px) 400px"
               alt="photo de nicholas green dans un concert"
             />
           </div>
           <div class="carousel-item">
             <picture>
-              <source
-                media="(max-width: 650px)"
-                srcset="
-                  ./assets/images/slider/mobile/edward-cisneros-3_h6-1NPDGw-unsplash.webp
-                "
-                width="591"
-                height="273" />
-              <source
-                media="(min-width: 651px)"
-                srcset="
-                  ./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp
-                "
-                width="1520"
-                height="702" />
               <img
                 loading="lazy"
                 fetchpriority="low"
-                width="1520"
-                height="702"
-                src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp"
+                width="591"
+                height="273"
+                srcset="
+                ./assets/images/slider/mobile/edward-cisneros-3_h6-1NPDGw-unsplash.webp  591w,
+                ./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp        1520w
+              "
+              sizes=" (max-width:850px) 400px"
                 alt="photo d'edward cisneros de mariés qui s'embrassent"
             /></picture>
           </div>
@@ -205,56 +271,102 @@
             <img
               data-gallery-tag="Concert"
               class="gallery-item"
-              src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp"
-              alt="photo concerts d'aaron paul"
+              src="./assets/images/gallery/concerts/mobile/aaron-paul-wnX-fXzB6Cw-unsplash.webp"
+              alt="photo concerts d'aaron paul"sizes=" (max-width:850px) 160px"
+              srcset="
+              ./assets/images/gallery/concerts/mobile/aaron-paul-wnX-fXzB6Cw-unsplash.webp  160w,
+              ./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp       500w
+            "
+            
             />
             <img
               data-gallery-tag="Entreprises"
               class="gallery-item"
-              src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp"
+              src="./assets/images/gallery/entreprise/mobile/ali-morshedlou-WMD64tMfc4k-unsplash.webp"
               alt="photo entreprise de ali morshedlou"
+              sizes=" (max-width:850px) 160px"
+              srcset="
+              ./assets/images/gallery/entreprise/mobile/ali-morshedlou-WMD64tMfc4k-unsplash.webp  160w,
+              ./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp      500w
+            "
+            
             />
             <img
               data-gallery-tag="Entreprises"
               class="gallery-item"
               src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp"
               alt="photo entreprise de jason goodman"
+              sizes=" (max-width:850px) 160px"
+              srcset="
+              ./assets/images/gallery/entreprise/mobile/jason-goodman-tHO1_OuKbg0-unsplash.webp  160w,
+              ./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp     500w
+            "
             />
             <img
               data-gallery-tag="Mariages"
               class="gallery-item"
               src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp"
               alt="photo mariage de hannah bushing"
+              sizes=" (max-width:850px) 160px"
+              srcset="
+              ./assets/images/gallery/mariage/mobile/hannah-busing-RvF2R_qMpRk-unsplash.webp  160w,
+              ./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp     500w
+            "
             />
             <img
               data-gallery-tag="Portrait"
               class="gallery-item"
               src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp"
               alt="photo portrait de ade tunji"
+              sizes=" (max-width:850px) 160px"
+              srcset="
+              ./assets/images/gallery/portraits/mobile/ade-tunji-rVkhWWZFAtQ-unsplash.webp  160w,
+              ./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp      500w
+            "
             />
             <img
               data-gallery-tag="Mariages"
               class="gallery-item"
               src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp"
               alt="photo mariage de jakob owens"
+              sizes=" (max-width:850px) 160px"
+              srcset="
+              ./assets/images/gallery/mariage/mobile/jakob-owens-SiniLJkXhMc-unsplash.webp  160w,
+              ./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp      500w
+            "
             />
             <img
               data-gallery-tag="Portrait"
               class="gallery-item"
               src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp"
               alt="photo portrait de nino-van-prattenburg"
+              sizes=" (max-width:850px) 160px"
+              srcset="
+              ./assets/images/gallery/portraits/mobile/nino-van-prattenburg--443cl1uR_8-unsplash.webp  160w,
+              ./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp     500w
+            "
             />
             <img
               data-gallery-tag="Concert"
               class="gallery-item"
               src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp"
               alt="photo concerts austin neill"
+              sizes=" (max-width:850px) 160px"
+              srcset="
+              ./assets/images/gallery/concerts/mobile/austin-neill-hgO1wFPXl3I-unsplash.webp  160w,
+              ./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp      500w
+            "
             />
             <img
               data-gallery-tag="Entreprises"
               class="gallery-item"
               src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp"
               alt="photo entreprise de mateus campos felipe"
+              sizes=" (max-width:850px) 160px"
+              srcset="
+              ./assets/images/gallery/entreprise/mobile/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp  160w,
+              ./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp      500w
+            "
             />
           </div>
         </article>
