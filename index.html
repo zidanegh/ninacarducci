@@ -5,9 +5,8 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Person",
+        "@type": "Photographer",
         "name": "Nom du Photographe",
-        "jobTitle": "Photographe",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "68 avenue Alsace-Lorraine",
@@ -17,13 +16,27 @@
         "telephone": "05 56 67 78 89",
         "contactPoint": {
           "@type": "ContactPoint",
-          "telephone": "05 56 67 78 89",
           "contactType": "customer service",
+          "telephone": "05 56 67 78 89",
+          "areaServed": "FR",
           "availableLanguage": ["French", "English"]
         },
-        "description": "Disponible du lundi au vendredi de 10h à 19h"
-      }   
-      </script>
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "10:00",
+            "closes": "19:00"
+          }
+        ]
+      }
+    </script>
     <meta
       name="description"
       content="photographe Nina Carducci portraits & événementiel sur bordeaux"
