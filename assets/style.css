@@ -321,5 +321,42 @@
     width: 100%;
   }
 }
-
+@media all and (max-width: 650px) {
+  .top-header .nav a {
+    min-height: 21px;
+    width: fit-content;
+  }
+  .top-header {
+    flex-direction: column;
+    padding-inline: 0;
+  }
+  .top-header .nav,
+  .top-header .nav ul {
+    width: 100%;
+    padding: 0 0 0 0;
+  }
+  .top-header .nav li {
+    flex: 1;
+    padding-block: 1em;
+    text-align: center;
+  }
+  .picture.left::before {
+    height: 150px;
+  }
+  .picture {
+    width: 80%;
+  }
+  header {
+    min-height: 150px;
+  }
+  #header {
+    min-height: 275px;
+  }
+  main {
+    min-height: 3943px;
+  }
+  #contact {
+    min-height: 951px;
+  }
+}
 
