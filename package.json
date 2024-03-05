@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "minify": "terser assets/style.css  -c -m --output assets/style.css"
+    "minify": "terser assets/maugallery.js  -c -m --output assets/maugallery.min.js"
   },
   "keywords": [],
   "author": "",
